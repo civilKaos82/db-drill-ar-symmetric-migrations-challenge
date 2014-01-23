@@ -2,6 +2,10 @@
  
 ##Learning Competencies 
 
+* Use Active Record Migrations to create a database
+* Use Active Record Queries to query a database
+* Use Active Record to create Associations between database tables
+
 ##Summary 
 
  While it's not *always* possible, in many cases we can write our migrations in such a way that we can travel through time using database migrations. You saw a little bit of this in a previous challenge, when we were using the `VERSION` argument to the `rake db:migrate` command.
@@ -10,11 +14,12 @@ In other words, migrations can go in two directions. That is, just like you can 
 
 By the end of this challenge, you'll be intimately familiar with how to write migrations in such a way that they are "symmetric".
 
-Using `git`, commit early and commit *often*. You should be able to point a reviewer at a `git` SHA to show them any completed objective.
+Copy your code from the [ActiveRecord Student Schema](https://github.com/sea-lions-2014/db-drill-ar-student-schema-challenge) into the `ar_associations` directory in the source directory to work forward from that code. 
 
-## Objectives
 
-### Internationalize the Schema
+##Releases
+
+###Release 0 : Internationalize the Schema
 
 Those of you who are a bit more savvy in terms of [internationalization (i18n)](http://en.wikipedia.org/wiki/Internationalization_and_localization) probably noticed that our schema has a mistake in it. Specifically, we are capturing a `first_name` and `last_name` for each student. However, for various cultures around the world, [those fields don't make sense](http://www.w3.org/International/questions/qa-personal-names).
 
@@ -50,9 +55,7 @@ $ rspec spec/student_internationalized_spec.rb -e "Student symmetric migration"
 
 All tests should pass. 
 
-##Releases
-###Release 0 
 
-##Optimize Your Learning 
+<!--  ##Optimize Your Learning  -->
 
 ##Resources
