@@ -1,4 +1,4 @@
-# Db Drill Ar Symmetric Migrations 
+# DB Drill: ActiveRecord Symmetric Migrations 
  
 ##Learning Competencies 
 
@@ -14,7 +14,7 @@ In other words, migrations can go in two directions. That is, just like you can 
 
 By the end of this challenge, you'll be intimately familiar with how to write migrations in such a way that they are "symmetric".
 
-Copy your code from the [ActiveRecord Student Schema](https://github.com/sea-lions-2014/db-drill-ar-student-schema-challenge) into the `ar_associations` directory in the source directory to work forward from that code. 
+Copy your code from the [ActiveRecord Student Schema](../../../db-drill-ar-student-schema-challenge) into the `ar_associations` directory in the source directory to work forward from that code. 
 
 
 ##Releases
@@ -53,9 +53,4 @@ $ rake db:migrate VERSION=$PREV_VERSION
 $ rspec spec/student_internationalized_spec.rb -e "Student symmetric migration"
 ```
 
-All tests should pass. 
-
-
-<!--  ##Optimize Your Learning  -->
-
-##Resources
+All tests should pass.
