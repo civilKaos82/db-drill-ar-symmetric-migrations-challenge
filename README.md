@@ -1,10 +1,4 @@
 # DB Drill: ActiveRecord Symmetric Migrations 
- 
-##Learning Competencies 
-
-* Use Active Record Migrations to create a database
-* Use Active Record Queries to query a database
-* Use Active Record to create Associations between database tables
 
 ##Summary 
 
